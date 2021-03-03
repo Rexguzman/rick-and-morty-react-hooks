@@ -1,9 +1,10 @@
 import React from 'react';
+import { Characters } from '../../components';
 import StyledHomeContainer from './Home.styled';
 
 const Home = () => (
   <StyledHomeContainer>
-    <p>Hola</p>
+    <Characters/>
   </StyledHomeContainer>
 );
 

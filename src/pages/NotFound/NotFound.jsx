@@ -1,12 +1,8 @@
-import React from 'react'
-import { NotFoundContainer } from './NotFound.styled'
+import React from 'react';
+import { NotFoundContainer } from './NotFound.styled';
 
 const NotFound = () => {
-  return (
-    <NotFoundContainer>
-      Hello World
-    </NotFoundContainer>
-  )
-}
+  return <NotFoundContainer>Hello World</NotFoundContainer>;
+};
 
-export default NotFound
+export default NotFound;
