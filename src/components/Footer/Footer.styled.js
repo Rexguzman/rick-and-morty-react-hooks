@@ -4,7 +4,7 @@ export const FooterContainer = styled.footer`
   background-color: #334557;
   color: white;
   p {
-      font-size: 1.6rem;
+    font-size: 1.6rem;
   }
   div {
     display: flex;
@@ -26,7 +26,7 @@ export const FooterContainer = styled.footer`
     background-color: #2680c1;
     padding: 15px 0;
   }
-  div section figure{
+  div section figure {
     cursor: pointer;
     padding: 7px;
   }

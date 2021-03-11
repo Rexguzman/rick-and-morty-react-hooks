@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
   return (
     <ThemeProvider theme={DarkMode.theme === 'light' ? lightTheme : darkTheme}>
       <Global />
-      <Header toggleTheme={DarkMode.toggleTheme} />
+      <Header toggleTheme={DarkMode.toggleTheme} theme={DarkMode.theme}/>
       {children}
       <Footer />
     </ThemeProvider>

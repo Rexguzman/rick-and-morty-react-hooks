@@ -28,7 +28,7 @@ export const CharacterContainer = styled.div`
     border: 1px solid black;
     border-radius: 50%;
   }
-  h3 {
+  h4 {
     width: 100%;
     height: 100%;
     text-align: center;

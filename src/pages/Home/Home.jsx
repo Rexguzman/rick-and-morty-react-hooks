@@ -4,7 +4,7 @@ import StyledHomeContainer from './Home.styled';
 
 const Home = () => (
   <StyledHomeContainer>
-    <Characters/>
+    <Characters />
   </StyledHomeContainer>
 );
 

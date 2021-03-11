@@ -35,12 +35,24 @@ export const Global = createGlobalStyle`
         padding:0;
     }
     h1 {
-
+        font-size: 4rem;
+        text-align: center;
     }
     h2 {
-
+        font-size: 3.5rem;
+        text-align: center;
     }
     h3 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    h4 {
         font-size: 2rem;
+        text-align:center;
+    }
+    p {
+        font-size: 2rem;
+        text-align: center;
+
     }
 `;
